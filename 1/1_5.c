@@ -3,7 +3,7 @@
 **/
 #include <stdio.h>
 
-int main() {
+int main(int argc, const char *argv[]) {
     float x, y;
     scanf("%f", &x);
     y = ((95 * x) >= 300) ? (95 * 0.85 * x) : (95 * x);

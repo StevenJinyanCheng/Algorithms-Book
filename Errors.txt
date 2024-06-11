@@ -1,0 +1,10 @@
+1. Question 1.5 have a grammar mistake. I tried it on my Windows computer and clang says there might be a bug and for some reasons gcc has failed doing ANYTHING.
+
+2. If this book is for beginners, please just mention DO NOT USE gets. The very safe way is just use std::string in C++ to avoid memory overflow.
+
+3. Mention (expr)?case1:case2 will not work if case1 and case2 have not a same return type. 
+
+4. Show how to use gdb.
+
+5.  Mention we need to check recursive functions for every 'if's in the parameters so it will not crash or infinite loop.
+
