@@ -1,0 +1,13 @@
+1. int is a 32-bit signed integer. It is in the range 2147483647 to -2147483648. See std::numeric_limits<int>::max() and std::numeric_limits<int>::min()
+2. 15 digits or sometimes 15 +- 1.
+3. 2.22045e-16 and 1.79769e+308 for normalized
+4. All ok.
+5. 
+if(a){
+    if(b){
+        x++;
+    }
+    else{
+        y++;
+    }
+}
