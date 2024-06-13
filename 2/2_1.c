@@ -2,7 +2,7 @@
  *               ___      ___    3   3   3
  * calculate all ABC that ABC = A + B + C
 **/
-#include<stdio.h>
+#include <stdio.h>
 //#define CHEAT
 int main(int argc, const char *argv[]){
 #ifdef CHEAT

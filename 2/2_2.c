@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdbool.h>
+#include <stdio.h>
+#include <stdbool.h>
 int main(int argc, const char *argv[]){
     int a, b, c;
     scanf("%d%d%d", &a, &b, &c);

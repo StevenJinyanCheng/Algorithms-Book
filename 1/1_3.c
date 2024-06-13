@@ -1,7 +1,7 @@
 /** 
  * calculate v = n*(n+1)/2
 **/
-#include<stdio.h>
+#include <stdio.h>
 int main(int argc, const char *argv[]){
     int n;
     scanf("%d", &n);

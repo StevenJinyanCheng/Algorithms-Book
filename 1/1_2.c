@@ -1,7 +1,7 @@
 /** 
  * calculate c = 5(f-32)/9
 **/
-#include<stdio.h>
+#include <stdio.h>
 int main(int argc, const char *argv[]){
     float f;
     scanf("%f", &f);
