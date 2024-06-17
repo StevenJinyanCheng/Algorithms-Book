@@ -19,7 +19,7 @@ int main(int argc, const char *argv[]) {
         }
     }
 
-    bool foundAnySquares = false;
+    bool found = false;
     for (int size = 1; size <= n; size++) {
         int count = 0;
         for (int i = 1; i <= n - size; i++) {
@@ -38,11 +38,11 @@ int main(int argc, const char *argv[]) {
         }
         if (count > 0) {
             printf("%d square(s) with size %d\n", count, size);
-            foundAnySquares = true;
+            found = true;
         }
     }
 
-    if (!foundAnySquares) {
+    if (!found) {
         printf("No completed squares can be found.\n");
     }
 
