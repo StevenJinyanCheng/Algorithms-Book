@@ -53,7 +53,7 @@
 #define MAX_FIB_DIGIT 20900
 
 int main() {
-    int T;
+    int T, cscnt = 1;
     scanf("%d", &T);
 
     char s[50];
@@ -67,7 +67,7 @@ int main() {
         memset(s, 0, sizeof(s));
         scanf("%40s", s);  // Ensure no buffer overflow
         size_t len = strnlen(s, sizeof(s));
-
+        printf("Case %d: ", cscnt)
         for (int i = 0; i <= MAX_FIB_SIZE; i++) {
             if (i > 1) {
                 mpz_add(now, now, last);
@@ -89,6 +89,7 @@ int main() {
 
         mpz_set_ui(now, 0u);
         mpz_set_ui(last, 1u);
+        cscnt++;
     }
 
     mpz_clear(now);
