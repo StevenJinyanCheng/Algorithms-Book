@@ -67,7 +67,7 @@ int main() {
         memset(s, 0, sizeof(s));
         scanf("%40s", s);  // Ensure no buffer overflow
         size_t len = strnlen(s, sizeof(s));
-        printf("Case %c%d: ", '#', cscnt);
+        printf("Case %c%d: ", char(35), cscnt);
         for (int i = 0; i <= MAX_FIB_SIZE; i++) {
             if (i > 1) {
                 mpz_add(now, now, last);
